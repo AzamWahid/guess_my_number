@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.headPortion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.headPortion p {
+    color: white;
+}
+
+.mainPortion {
+    margin-top: 70px;
+    text-align: center;
+    position: relative;
+
+}
+
+.line {
+    margin-top: 50px;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+}
+
+.lineQuestion {
+    display: flex;
+    justify-content: center;
+}
+
+.questionMark {
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    /* left: 640px; */
+}
+
+.gameArea {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    /* width: 80%; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inputArea {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#userInput {
+    background-color: transparent;
+    border: 2px solid white;
+    height: 70px;
+    width: 150px;
+    color: white;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+}
+
+#btn {
+    height: 40px;
+    width: 110px;
+}
+
+.mainArea {
+    width: 50%;
+}
+
+.scoreArea {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scoresP {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.scoresP p {
+    margin-bottom: 0;
+}

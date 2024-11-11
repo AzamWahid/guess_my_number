@@ -74,6 +74,8 @@ body {
     height: 70px;
     width: 150px;
     color: white;
+    text-align: center;
+    font-size: 30px;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
@@ -83,6 +85,7 @@ input[type="number"] {
     -moz-appearance: textfield;
     margin: 0;
 }
+
 
 #btn {
     height: 40px;
@@ -108,4 +111,8 @@ input[type="number"] {
 
 .scoresP p {
     margin-bottom: 0;
+}
+
+#again {
+    width: 80px;
 }
